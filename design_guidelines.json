@@ -1,0 +1,235 @@
+{
+  "brand_identity": {
+    "name": "AURA GEM AI",
+    "tagline": "AI Jewellery Studio & On-Model Photography",
+    "positioning": "High-end luxury jewellery photography SaaS engineered for jewellers, artisans, and e-commerce brands. Replaces million-dollar photo shoots with instant, studio-grade AI rendering.",
+    "visual_archetype": "ARCHETYPE 5: LUXURY & ARCHETYPE 1: ORGANIC & WARM (Warm Ivory, Champagne Gold, Deep Slate & Charcoal, Silk Textures)",
+    "design_tone": "Warm luxury, editorial sophistication, ultra-clean studio precision, non-cluttered breathing space."
+  },
+
+  "color_palette": {
+    "theme": "Light Warm Luxury with Dark Studio Accent Accents",
+    "background_main": "#FAF8F5",
+    "background_secondary": "#F5F2ED",
+    "card_background": "#FFFFFF",
+    "card_background_dark": "#121110",
+    "primary_text": "#1C1917",
+    "secondary_text": "#57534E",
+    "muted_text": "#78716C",
+    "champagne_gold": {
+      "main": "#D4AF37",
+      "hover": "#C59B27",
+      "light": "#F9F3DF",
+      "border": "#E6C65E",
+      "gradient_from": "#D4AF37",
+      "gradient_to": "#AA771C"
+    },
+    "charcoal": {
+      "900": "#1C1917",
+      "800": "#292524",
+      "700": "#44403C"
+    },
+    "borders": {
+      "subtle": "#E7E5E4",
+      "medium": "#D6D3D1",
+      "gold_glow": "rgba(212, 175, 55, 0.25)"
+    },
+    "status": {
+      "success": "#15803D",
+      "warning": "#B45309",
+      "error": "#B91C1C",
+      "info": "#1E40AF"
+    }
+  },
+
+  "typography": {
+    "font_family_heading": "Cormorant Garamond, Playfair Display, serif",
+    "font_family_body": "Plus Jakarta Sans, system-ui, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight leading-[1.15] text-[#1C1917]",
+      "section_title": "text-3xl sm:text-4xl font-serif font-medium text-[#1C1917] tracking-tight",
+      "subsection_title": "text-xl sm:text-2xl font-serif font-medium text-[#292524]",
+      "card_title": "text-lg font-sans font-semibold text-[#1C1917]",
+      "body_large": "text-lg font-sans text-[#44403C] leading-relaxed",
+      "body_base": "text-base font-sans text-[#57534E] leading-relaxed",
+      "body_small": "text-sm font-sans text-[#78716C]",
+      "overline": "text-xs font-sans font-bold uppercase tracking-[0.2em] text-[#D4AF37]"
+    }
+  },
+
+  "layout_and_spacing": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "dashboard_container": "max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8",
+    "section_padding": "py-16 md:py-24",
+    "card_padding": "p-6 sm:p-8",
+    "grid_gap": "gap-6 sm:gap-8",
+    "bento_grid_marketing": "grid grid-cols-1 md:grid-cols-12 gap-8",
+    "dashboard_grid": "grid grid-cols-1 lg:grid-cols-12 gap-6"
+  },
+
+  "pages_architecture": {
+    "landing_page": {
+      "sections": [
+        "Navigation (Header with logo, Studio link, Model Showcase, Pricing, FAQ, Sign In, CTA 'Try Free 3 Credits')",
+        "Hero Section (Headline: 'Transform Raw Jewellery Shots into Vogue-Grade Studio Visuals in Seconds', Subheadline, CTA buttons, Hero Interactive Before/After Slider)",
+        "Social Proof / Client Brands Bar (Cartier, Tanishq, Kalyan, Malabar style mockup partner logos)",
+        "Before / After Interactive Showcase (Slide-to-compare flat smartphone photo vs AI rendered silk/marble studio background)",
+        "How It Works (3 Steps: 1. Upload Jewellery Photo -> 2. Select Style Preset or Model Persona -> 3. Instant 4K Render & Download)",
+        "Jewellery Categories Supported (Necklace, Earrings, Ring, Bangles, Bracelet, Pendant, Full Bridal Set)",
+        "AI Photography Styles Grid (Luxury Black Velvet, Premium White Marble, Beige Studio, Silk Draped, Minimalist Catalogue, Royal Indian, Bridal Editorial, Macro Close-Up)",
+        "AI Model Showcase (Traditional Indian Bridal, South Indian Temple, North Indian Bridal, Modern Western Fashion, Festive Glow, Luxury Editorial)",
+        "Interactive ROI / Time Saver Calculator ('Save up to 92% on studio lighting, models & editing')",
+        "Pricing Section (Free Trial: 3 images, Starter: 20 images @ $29/mo, Growth: 75 images @ $79/mo, Business: 300 images @ $199/mo, with Razorpay toggle & CTA)",
+        "Testimonials Grid (Labelled with Verified Jewellery Retailers & Designers)",
+        "FAQ Accordion (Shadcn Accordion with common jewellery AI questions)",
+        "Final High-Impact CTA Banner + Footer with links"
+      ]
+    },
+    "dashboard": {
+      "sections": [
+        "Header Stats bar (Total Generations, Credits Remaining: 18/20, Active Projects, Storage Used)",
+        "Quick Action Cards (Launch AI Studio, AI Model Photoshoot, Background Removal, New Project)",
+        "Recent Generations Grid with Quick Download / Compare / Regenerate actions",
+        "Recent Projects Table / Grid",
+        "Credit Usage Chart & Subscription Status badge"
+      ]
+    },
+    "ai_studio_workspace": {
+      "sections": [
+        "Top Bar (Project Switcher, Canvas Mode: Product Studio / On-Model / Bg Removal, Credit Counter)",
+        "Left Control Panel (Upload Area with Drag-Drop + Image Dimensions preview, Category Dropdown, Style Preset Selector with thumbnail cards, Custom Instructions, Lighting/Angle/Aspect Ratio controls, Output Count: 1-4, Generate Button)",
+        "Right Interactive Studio Canvas (Generating loader state with shimmer & progress bar, Results comparison grid, Before/After overlay slider, Quality Score rating 9.8/10, Download PNG/JPG, Regenerate, Delete, Save to Project)"
+      ]
+    },
+    "ai_model_photography": {
+      "sections": [
+        "Model Selection Panel (Gender/Appearance, Ethnicities: Traditional Indian Bridal, South Indian, North Indian, Modern Western, Festive, Luxury Editorial)",
+        "Jewellery Placement Canvas (Select necklace/earring from library, auto-align on model neck/ears, pose adjustments)",
+        "Render Settings & Preset Gallery"
+      ]
+    },
+    "background_removal": {
+      "sections": [
+        "Drag & Drop Upload for pure background isolation",
+        "Transparent Checkerboard Preview vs Custom Solid/Gradient Background Replacement",
+        "Edge Sharpness & Shadow Control slider",
+        "Instant High-Res PNG Download"
+      ]
+    },
+    "projects_and_gallery": {
+      "sections": [
+        "Search & Filter Bar (Filter by Category: Ring, Necklace, Earrings; Filter by Style Preset; Search by tag)",
+        "Grid View / List View switcher",
+        "Batch Action Bar (Download selected ZIP, Move to Project, Bulk Delete)",
+        "Image Detail Modal with metadata (Preset used, resolution, date, credits spent)"
+      ]
+    },
+    "billing_and_credits": {
+      "sections": [
+        "Current Subscription Card (Starter Plan - 20 Credits/mo)",
+        "Credit Refill Packs (Add 50, 150, 500 extra credits)",
+        "Pricing Matrix with Monthly/Annual toggle",
+        "Razorpay Demo Checkout Drawer / Modal",
+        "Invoice & Transaction History Table"
+      ]
+    }
+  },
+
+  "components_guidelines": {
+    "buttons": {
+      "primary": "bg-[#1C1917] hover:bg-[#292524] text-white font-medium px-6 py-3 rounded-md transition-all shadow-sm hover:shadow-md border border-transparent text-sm active:scale-[0.99]",
+      "gold_cta": "bg-gradient-to-r from-[#D4AF37] to-[#C59B27] hover:from-[#C59B27] hover:to-[#B58B17] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:shadow-lg transition-all text-sm active:scale-[0.99]",
+      "secondary": "bg-[#F5F2ED] hover:bg-[#EFECE6] text-[#1C1917] font-medium px-5 py-2.5 rounded-md border border-[#E7E5E4] transition-all text-sm",
+      "outline_gold": "border border-[#D4AF37] text-[#1C1917] hover:bg-[#F9F3DF] font-medium px-5 py-2.5 rounded-md transition-all text-sm"
+    },
+    "cards": {
+      "standard": "bg-white border border-[#E7E5E4] rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow",
+      "featured_gold": "bg-white border-2 border-[#D4AF37] rounded-lg p-6 shadow-md relative overflow-hidden",
+      "dark_studio": "bg-[#121110] border border-[#2A2725] text-white rounded-lg p-6 shadow-xl"
+    },
+    "inputs": {
+      "field": "bg-white border border-[#E7E5E4] text-[#1C1917] rounded-md px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]/50 focus:border-[#D4AF37] text-sm"
+    }
+  },
+
+  "image_assets": {
+    "hero_and_featured": [
+      {
+        "category": "Hero Jewellery Product",
+        "url": "https://images.unsplash.com/photo-1793867134722-50322a0522e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA7MDR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBnb2xkJTIwZGlhbW9uZCUyMG5lY2tsYWNlJTIwamV3ZWxsZXJ5JTIwc3R1ZGlvJTIwcGhvdG98ZW58MHx8fHwxNzk0MjAwOTk1fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Gold Diamond Necklace Luxury Render"
+      },
+      {
+        "category": "Hero Flat Photo (Before)",
+        "url": "https://images.unsplash.com/photo-1708221270146-7aa63e1e126a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA7MDR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBnb2xkJTIwZGlhbW9uZCUyMG5lY2tsYWNlJTIwamV3ZWxsZXJ5JTIwc3R1ZGlvJTIwcGhvdG98ZW58MHx8fHwxNzk0MjAwOTk1fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Raw Gold Pendant Photo Before AI"
+      },
+      {
+        "category": "Hero After Render",
+        "url": "https://images.unsplash.com/photo-1694868016436-3cdbe0dba010?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA7MDR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBnb2xkJTIwZGlhbW9uZCUyMG5lY2tsYWNlJTIwamV3ZWxsZXJ5JTIwc3R1ZGlvJTIwcGhvdG98ZW58MHx8fHwxNzk0MjAwOTk1fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "AI Studio White Plate Render After"
+      }
+    ],
+    "models": [
+      {
+        "category": "Traditional Indian Bridal Model",
+        "url": "https://images.unsplash.com/photo-1600685890506-593fdf55949b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBicmlkYWwlMjBnb2xkJTIwamV3ZWxsZXJ5JTIwbW9kZWwlMjBlZGl0b3JpYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3OTQyMDA5OTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Indian Bride Gold Jewelry Model"
+      },
+      {
+        "category": "South Indian Bridal Model",
+        "url": "https://images.unsplash.com/photo-1688382654723-a7366006519b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBicmlkYWwlMjBnb2xkJTIwamV3ZWxsZXJ5JTIwbW9kZWwlMjBlZGl0b3JpYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3OTQyMDA5OTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "South Indian Silk Sari Jewellery Model"
+      },
+      {
+        "category": "North Indian Festive Model",
+        "url": "https://images.unsplash.com/photo-1778148046574-c1509f5a40d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBicmlkYWwlMjBnb2xkJTIwamV3ZWxsZXJ5JTIwbW9kZWwlMjBlZGl0b3JpYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3OTQyMDA5OTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Festive Gold Earring Editorial Model"
+      }
+    ],
+    "jewellery_categories": [
+      {
+        "category": "Diamond Rings",
+        "url": "https://images.unsplash.com/photo-1724937798320-d0c4fac1787d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHw0fHxkaWFtb25kJTIwcmluZyUyMGx1eHVyeSUyMHZlbHZldCUyMGJhY2tncm91bmQlMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3OTQyMDA5OTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Diamond Ring on Blue Velvet"
+      },
+      {
+        "category": "Red Ruby Ring",
+        "url": "https://images.unsplash.com/photo-1613945407943-59cd755fd69e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwyfHxkaWFtb25kJTIwcmluZyUyMGx1eHVyeSUyMHZlbHZldCUyMGJhY2tncm91bmQlMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3OTQyMDA5OTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Halo Ring on Silk"
+      },
+      {
+        "category": "Emerald Earrings",
+        "url": "https://images.unsplash.com/photo-1764591576264-ad2e0e4e793c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxlYXJyaW5ncyUyMGdvbGQlMjBsdXh1cnklMjBzdHVkaW8lMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3OTQyMDEwMDF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Gold Emerald Earrings"
+      },
+      {
+        "category": "Gold Bangles Stack",
+        "url": "https://images.unsplash.com/photo-1758995116383-f51775896add?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHw0fHxiYW5nbGVzJTIwZ29sZCUyMGluZGlhbiUyMHRyYWRpdGlvbmFsJTIwamV3ZWxsZXJ5fGVufDB8fHx8MTc5NDIwMTAwMXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Gold Bangles Traditional Studio"
+      },
+      {
+        "category": "Ruby Studded Bangles",
+        "url": "https://images.unsplash.com/photo-1617191880362-aac615de3c26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHxiYW5nbGVzJTIwZ29sZCUyMGluZGlhbiUyMHRyYWRpdGlvbmFsJTIwamV3ZWxsZXJ5fGVufDB8fHx8MTc5NDIwMTAwMXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Ruby Gold Kangan Bangles"
+      }
+    ]
+  },
+
+  "instructions_to_main_agent": [
+    "Ensure the visual direction explicitly requested by the user is honored: 'Premium luxury jewellery aesthetic. Warm ivory backgrounds. Champagne gold accents. Deep charcoal typography. Elegant typography. Spacious layouts. Premium product imagery. Minimal, desktop-first but responsive.'",
+    "DO NOT use generic blue SaaS gradients or standard AI landing page look. Use warm ivory (#FAF8F5) with rich dark charcoal (#1C1917) and delicate champagne gold accents (#D4AF37).",
+    "All interactive elements and inputs MUST have a `data-testid` attribute (e.g., data-testid='upload-input', data-testid='generate-btn', data-testid='plan-starter-btn').",
+    "Provide a full interactive mock application flow: Landing Page -> Auth Modal / Page -> Dashboard -> AI Studio Workspace (with real upload drag-and-drop preview, preset picker, generating progress bar simulation, before/after compare slider, download button) -> AI Model Photography Studio -> Background Removal Studio -> Projects & Gallery -> Billing with Razorpay checkout drawer.",
+    "Use Shadcn UI components for dialogs, accordions, dropdowns, tabs, select, and sliders, customized with warm ivory and gold borders.",
+    "Ensure smooth scrolling and responsive design for mobile, tablet, and desktop viewports."
+  ],
+
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "data_testid_requirement": "All interactive elements MUST include data-testid attributes in kebab-case.",
+    "no_universal_transition": "Never use transition: all. Specify properties like transition-colors, transition-transform.",
+    "no_center_app": "Do NOT center-align global text or app container.",
+    "toasts": "Use Sonner for toast notifications on actions like image generation, download, copy link, and razorpay payment simulation."
+  }
+}
